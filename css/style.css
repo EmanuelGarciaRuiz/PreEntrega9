@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e8eefc;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #2b59c3;
+}
+
+.caja {
+  background-color: white;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 8px;
+  margin: 4px;
+}
+
+button {
+  background-color: #2b59c3;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.producto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 8px 0;
+}
+
+.btn-eliminar {
+  background-color: #c0392b;
+}
+
+#mensaje {
+  font-weight: bold;
+}
+
+.ok {
+  color: green;
+}
+
+.error {
+  color: red;
+}
+
+.vacio {
+  color: #777;
+  font-style: italic;
+}
+
+.btn-secundario {
+  background-color: #6b7aa6;
+}
+
+.aviso {
+  background-color: #fff4d6;
+  border: 1px solid #f0c040;
+  color: #7a5a00;
+  border-radius: 8px;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  display: none;
+}
+
+.aviso.visible {
+  display: block;
+}
+
+#estado {
+  font-weight: bold;
+  color: #2b59c3;
+}

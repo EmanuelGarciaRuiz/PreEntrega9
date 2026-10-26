@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulador de Tienda</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <h1>Simulador de Tienda</h1>
+
+  <div id="aviso" class="aviso"></div>
+
+  <section class="caja">
+    <h2>Agregar producto</h2>
+    <input type="text" id="nombre" placeholder="Nombre">
+    <input type="number" id="precio" placeholder="Precio">
+    <input type="number" id="stock" placeholder="Stock">
+    <button id="btn-agregar">+ Agregar</button>
+    <p id="mensaje"></p>
+  </section>
+
+  <section class="caja">
+    <h2>Catálogo</h2>
+    <input type="text" id="buscador" placeholder="Buscar producto...">
+    <button id="btn-recargar">Recargar productos</button>
+    <p id="estado"></p>
+    <div id="contenedor-items"></div>
+    <button id="btn-reiniciar" class="btn-secundario">Restablecer tienda</button>
+  </section>
+
+  <section class="caja">
+    <h2>Carrito</h2>
+    <div id="contenedor-carrito"></div>
+    <input type="text" id="cupon" placeholder="Cupón de descuento">
+    <button id="btn-cupon">Aplicar</button>
+    <p>Total con IVA: <strong id="total"></strong></p>
+    <button id="btn-vaciar" class="btn-secundario">Vaciar carrito</button>
+  </section>
+</body>
+</html>
